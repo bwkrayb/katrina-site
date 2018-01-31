@@ -1,11 +1,14 @@
 .heading-main {
 	text-align: center;
 	font-family: 'Playfair Display', serif;
+	letter-spacing: 3px;
 }
 
 .heading-sub {
 	text-align: center;
-	font-family: 'Playfair Display', serif;
+	font-family: 'BrandonGrotesque-Thin', serif;
+	font-size: 14px;
+	letter-spacing: 10px;
 }
 
 .heading-sub-2 {
