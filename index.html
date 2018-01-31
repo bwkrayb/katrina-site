@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style/styles.css">
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<title>Katrina's Site</title>
+</head>
+<header id="header" class="">
+	<br>
+	<h2 class="heading-main">Katrina Reed</h2>
+	<h3 class="heading-sub"><a href="index.html">Film Photography</a></h3>
+	<br>
+	<h4 class="heading-sub-2 bio-link"><a href="bio.html">Bio</a></h4>
+	<br>
+	<!-- <h4 class="heading"><a href="gallery-test.html">Gallery Test</a></h4>
+	<h4 class="heading"><a href="gallery-test-2.html">Gallery Test</a></h4> -->
+</header>
+<body>
+		<div class="row-bk">
+			<div class="column-bk">
+				<div class="thumbnail-bk hover">
+					<img src="images/window.jpg" alt="" onclick="openModal();currentSlide(1)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/flower1.jpg" alt="" onclick="openModal();currentSlide(2)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/tech3.jpg" alt="" onclick="openModal();currentSlide(3)">
+				</div>
+			</div>
+			<div class="column-bk">
+				<div class="thumbnail-bk hover">
+					<img src="images/ice2.jpg" alt="" onclick="openModal();currentSlide(4)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/pier1.jpg" alt="" class="portrait" onclick="openModal();currentSlide(5)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/cat1.jpg" alt="" onclick="openModal();currentSlide(6)">
+				</div>			
+			</div>
+			<div class="column-bk">
+				<div class="thumbnail-bk hover">
+					<img src="images/tech.jpg" alt="" onclick="openModal();currentSlide(7)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/tech2.jpg" alt="" onclick="openModal();currentSlide(8)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/clouds.jpg" alt="" onclick="openModal();currentSlide(9)">
+				</div>				
+			</div>
+			<div class="column-bk">
+				<div class="thumbnail-bk hover">
+					<img src="images/ice1.jpg" alt="" onclick="openModal();currentSlide(10)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/rain.jpg" alt="" onclick="openModal();currentSlide(11)">
+				</div>
+				<div class="thumbnail-bk hover">
+					<img src="images/ice3.jpg" alt="" onclick="openModal();currentSlide(12)">
+				</div>				
+			</div>
+	</div>
+
+	<div id="myModal" class="modal">
+
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 12</div>
+	      <img src="images/window-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 12</div>
+	      <img src="images/flower1-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 12</div>
+	      <img src="images/tech3-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">4 / 12</div>
+	      <img src="images/ice2-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">5 / 12</div>
+	      <img src="images/pier1-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">6 / 12</div>
+	      <img src="images/cat1-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">7 / 12</div>
+	      <img src="images/tech-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">8 / 12</div>
+	      <img src="images/tech2-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">9 / 12</div>
+	      <img src="images/clouds-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">10 / 12</div>
+	      <img src="images/ice1-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">11 / 12</div>
+	      <img src="images/rain-slide.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">12 / 12</div>
+	      <img src="images/ice3-slide.jpg" style="width:100%">
+	    </div>
+
+	    <!-- Next/previous controls -->
+	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+	  </div>
+	</div>
+</body>
+<footer>
+	<br>
+	<br>
+	<h5 class="heading">Copyright 2018</h3>
+</footer>
+</html>
