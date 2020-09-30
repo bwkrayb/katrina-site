@@ -287,8 +287,7 @@ header, footer {
   right: 25px;
   font-size: 25px;
   font-weight: bold;
-  /*border-radius: 100px 100px 100px 100px;*/
-  border-radius:50%;
+  border-radius: 100px 100px 100px 100px;
 }
 
 .close:hover,
